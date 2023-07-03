@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <title> Carrinho </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="carr.css">
+
+    
+</head>
+<body>
+
+    <!-- https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSGDsNUYbDCGPmFK2aRV9YR0TRoBtYyUrbzI4FJS-QfBIRI837Eyc7KaMlh4J64LwtPstmtY70EVnze-W85Qqx9YzoCbuAP_r0mKyAgw_4&usqp=CAc -->
+                        <!-- ========== CABEÇALHO ========== -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a href="" class="navbar-brand"><img src="imagens/logo (1).png"></a>
+            <button 
+                class="navbar-toggler"
+                data-bs-toggle="collapse" 
+                data-bs-target="#menu-principal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="navbar-collapse collapse" id="menu-principal" >
+                    <ul class="navbar-nav ms-auto">
+                        <li><a href="index.html" class="nav-link">Home</a></li>    
+                        <li><a href="login.html" class="nav-link">Login</a></li>
+                        <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                        <li><a href="#footer_content" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+                    <!-- ========== Adicionando ========== -->
+
+    <main class="flex-fill">
+        <div class="container">
+                <h2> Adicionando ao Carrinho</h2><br>
+
+                
+                <div class="container h-100">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                      <div class="col">
+                        <h3 class="h2">Itens Selecionados </h3>
+                
+                        <div class="card mb-4">
+                          <div class="card-body p-4">
+                
+                                <div class="row align-items-center">
+                                <div class="col-md-2">
+                                    <img src="https://www.monnieri.com.br/static/3230/sku/short-academia-feminino-SHORT-ACADEMIA-FEMININO-VERDE-MILITAR-1560600903339.jpg"
+                                    class="img-thumbnail" alt="Generic placeholder image">
+                                </div>
+                                <div class="col-md-2 d-flex justify-content-center">
+                                    <div>
+                                    <p class="small text-muted mb-4 pb-2">Name</p>
+                                    <p class="nome fw-normal mb-0">Shorts legging</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 d-flex justify-content-center">
+                                    <div>
+                                        <p class="small text-muted mb-4 pb-2 quantidade-label d-block">Quantidade</p>
+                                        <input type="number" value="2" min="0" class="product-qtd-input text-center">
+                                    </div>
+                                    
+                                </div>                                
+                                <div class="col-md-2 d-flex justify-content-center">
+                                    <div>
+                                    <p class="small text-muted mb-4 pb-2">Preço</p>
+                                    <p class="lead fw-normal mb-0">R$149.90</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-2 d-flex justify-content-center">
+                                    <div>
+                                    <p class="small text-muted mb-4 pb-2">Total</p>
+                                    <p class="lead fw-normal mb-0">R$149.90</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 d-flex justify-content-center">
+                                    <div>
+                                    <button type="button" class="remove-product-button btn-lg bg-transparent">Remover</button>
+                                    </div>
+                                </div> 
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="card mb-4">
+                                <div class="card-body p-4">
+                      
+                                      <div class="row align-items-center">
+                                      <div class="col-md-2">
+                                          <img src="	https://img102.urbanic.com/goods-pic/a6523364765140089ccc27ea0acbc866UR_w1000_q90"
+                                          class="img-thumbnail" alt="Generic placeholder image">
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Name</p>
+                                          <p class="nome fw-normal mb-0">Top manga longa</p>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                              <p class="small text-muted mb-4 pb-2 quantidade-label d-block">Quantidade</p>
+                                              <input type="number" value="4" min="0" class="product-qtd-input text-center">
+                                          </div>
+                                          
+                                      </div>                                
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Preço</p>
+                                          <p class="lead fw-normal mb-0">R$59.00</p>
+                                          </div>
+                                      </div>
+                                      
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Total</p>
+                                          <p class="lead fw-normal mb-0">R$59.00</p>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <button type="button" class="remove-product-button btn-lg bg-transparent">Remover</button>
+                                          </div>
+                                      </div> 
+                                      </div>
+                                  </div>
+                                  </div>
+        
+                      
+                            </div>
+
+                            <div class="card mb-4">
+                                <div class="card-body p-4">
+                      
+                                      <div class="row align-items-center">
+                                      <div class="col-md-2">
+                                          <img src="imagens/futebol1.jpeg"
+                                          class="img-thumbnail" alt="Generic placeholder image">
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Name</p>
+                                          <p class="nome fw-normal mb-0">Bola de Futebol- Adidas</p>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                              <p class="small text-muted mb-4 pb-2 quantidade-label d-block">Quantidade</p>
+                                              <input type="number" value="1" min="0" class="product-qtd-input text-center">
+                                          </div>
+                                          
+                                      </div>                                
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Preço</p>
+                                          <p class="lead fw-normal mb-0"> R$109.90</p>
+                                          </div>
+                                      </div>
+                                      
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Total</p>
+                                          <p class="lead fw-normal mb-0"> R$109.90</p>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <button type="button" class="remove-product-button btn-lg bg-transparent">Remover</button>
+                                          </div>
+                                      </div> 
+                                      </div>
+                                  </div>
+                                  </div>
+        
+                      
+                            </div>
+
+
+                            <div class="card mb-4">
+                                <div class="card-body p-4">
+                      
+                                      <div class="row align-items-center">
+                                      <div class="col-md-2">
+                                          <img src="https://i.pinimg.com/564x/8e/56/e5/8e56e5e884ad6f2b8436024005a9e684.jpg"
+                                          class="img-thumbnail" alt="Generic placeholder image">
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Name</p>
+                                          <p class="nome fw-normal mb-0">Shorts black</p>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                              <p class="small text-muted mb-4 pb-2 quantidade-label d-block">Quantidade</p>
+                                              <input type="number" value="3" min="0" class="product-qtd-input text-center">
+                                          </div>
+                                          
+                                      </div>                                
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Preço</p>
+                                          <p class="lead fw-normal mb-0">R$79.90</p>
+                                          </div>
+                                      </div>
+                                      
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Total</p>
+                                          <p class="lead fw-normal mb-0">R$79.90</p>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <button type="button" class="remove-product-button btn-lg bg-transparent">Remover</button>
+                                          </div>
+                                      </div> 
+                                      </div>
+                                  </div>
+                                  </div>
+        
+                      
+                            </div>
+
+
+                            <div class="card mb-4">
+                                <div class="card-body p-4">
+                      
+                                      <div class="row align-items-center">
+                                      <div class="col-md-2">
+                                          <img src="https://imgcentauro-a.akamaihd.net/500x500/95853302A1/mala-puma-phase-sports-feminina-img.jpg"
+                                          class="img-thumbnail" alt="Generic placeholder image">
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Name</p>
+                                          <p class="nome fw-normal mb-0">Mala Puma Phase Sports</p>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                              <p class="small text-muted mb-4 pb-2 quantidade-label d-block">Quantidade</p>
+                                              <input type="number" value="2" min="0" class="product-qtd-input text-center">
+                                          </div>
+                                          
+                                      </div>                                
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Preço</p>
+                                          <p class="lead fw-normal mb-0">R$119.90</p>
+                                          </div>
+                                      </div>
+                                      
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <p class="small text-muted mb-4 pb-2">Total</p>
+                                          <p class="lead fw-normal mb-0">R$119.90</p>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-2 d-flex justify-content-center">
+                                          <div>
+                                          <button type="button" class="remove-product-button btn-lg bg-transparent">Remover</button>
+                                          </div>
+                                      </div> 
+                                      </div>
+                                  </div>
+                                  </div>
+        
+                      
+                            </div>
+                    
+                            <div class="card mb-5">
+                            <div class="card-body p-4">
+                    
+                                <div class="float-end">
+                                <p class="mb-0 me-5 d-flex align-items-center">
+                                    <span class="small text-muted me-2">Total da Compra:</span> 
+                                    <spanclass="valor fw-normal">R$1.125,20</span>
+                                </p>
+                                </div>
+                    
+                            </div>
+                            </div>
+                
+                        <div class="d-flex justify-content-center ">
+                          <a href="cards.html" class="btn btn-light btn-lg me-2 ">Continuar a navegação</a>
+                          <button type="button" class="btn-lg bg-transparent" id="final" name="final">Finalizar</button>
+                        </div>
+                
+                      </div>
+
+
+                    </div>
+                  </div>
+        </div>
+    </main>
+
+                                <!-- FOOTER/RODAPÉ -->
+
+
+  <footer id="rodape" class="text-center text-lg-start">
+    
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+         
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+           <img src="imagens/logofooter.png" alt="">
+          </div>
+         
+
+          <hr class="w-100 clearfix d-md-none" />
+
+         
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Parceiros</h6>
+            <p>
+              <a href="https://www.gsuplementos.com.br/" class="footer-link">Growth Supplements</a>
+            </p>
+            <p>
+              <a href="https://www.smartfit.com.br/" class="footer-link">Smart Fit</a>
+            </p>
+            <p>
+              <a href="https://www.yopro.com.br/" class="footer-link">Yopro</a>
+            </p>
+           
+          </div>
+         
+
+          <hr class="w-100 clearfix d-md-none" />
+
+         
+          <hr class="w-100 clearfix d-md-none" />
+
+         
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Produtos</h6>
+            <p>
+              <a href="#suplementos" class="footer-link">Suplementos</a>
+            </p>
+          </div>
+         
+
+         
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contato:</h6>
+
+            <!-- Facebook -->
+            <a>
+            <i class="bi bi-"></i>
+              </a>
+
+               <!-- Whatsapp -->
+            <a></a>
+            <i class="bi bi-whatsapp"></i>
+              </a>
+              
+
+            <!-- Linkedin -->
+           <a href=""><i class="bi bi-linkedin"></i></a>
+
+
+            <!-- Instagram -->
+            <a></a>
+            <i class="bi bi-instagram"></i>
+              </a>
+
+            <!-- Github -->
+            <a href="https://github.com/jujuliabeat/Framework"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+       
+      </section>
+     
+    </div>
+   
+  </footer>
+
+
+    
+                     <!-- ========== VOLTAR AO TOPO ========== -->
+
+     <a id="link_topo" href="#home" class="botao-control-top btn-fixed"><svg xmlns="http://www.w3.org/2000/svg"
+        width="20" height="20" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+    </svg></i></a>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+    <script src="carr.js"></script>
+
+
+<script>
+    const botao = document.querySelector(".btn-fixed");
+
+    window.addEventListener("scroll", function (event) {
+        if (window.scrolly == 0) {
+            botao.classList.remove("visible");
+        } else {
+            botao.classList.add("visible");
+        }
+    })
+
+    const finalButton = document.getElementById("final");
+finalButton.addEventListener("click", exibirMensagem);
+
+function exibirMensagem() {
+  alert("Compra realizada com sucesso! Muito obrigada!");
+}
+</script>
+
+   
+    
+</body>
+</html>

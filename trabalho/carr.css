@@ -1,0 +1,124 @@
+/* PARTE DE CIMA */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:ital@1&display=swap');
+
+/* PARA TODA A PÁGINA */
+:root{
+    --prim: #791979;
+    --second: #9b429a;
+    --tri: #bc6abc;
+    --for: #de93dd;
+    --five: #ffbcff;
+    --extra: #ffc2ff;
+    --tras:#140314;
+}
+
+body{
+  background-color: #ffc2ff;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.Home{
+    width: 100%;
+}
+#menu-principal a{
+  color: var(--prim);
+}
+nav{
+  height: 80px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.6);
+}
+    nav a img{
+      height: 80px;
+      width: 100px;
+
+    }
+
+/* CONTEUDO */
+
+h1, h2{
+  text-align: center;
+  color: var(--second);
+  font-family: 'Bebas Neue', sans-serif;
+  margin: 50px;
+  margin-bottom: 30px;
+}
+
+.card button{
+   height: 50px;
+   border: 1px solid black;
+   transition: 0.1s;
+}
+  .card button::after{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+  }
+    .card button:active {
+      transform: scale(1.5) rotate(1deg);
+      background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgb(139, 73, 226) 100.2% );
+      transition: 0.9s;
+    }
+        .card input {
+            width: 60px;
+            border: none;
+            color: var(--prim);
+        }
+            .card p {
+              color: var(--prim);
+            }
+              .card p .small{
+                color: var(--tras);
+              }
+
+.d-flex button{
+  height: 50px;
+  border: 1px solid black;
+  transition: 0.1s;
+}
+ .d-flex button::after{
+   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+ }
+   .d-flex button:active {
+     transform: scale(1.5) rotate(1deg);
+     background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgb(139, 73, 226) 100.2% );
+     transition: 0.9s;
+   }
+
+main{
+  padding: 0%;
+}
+
+
+/* footer */
+
+footer img{
+  width: auto;
+  height: 200px;
+}
+
+footer{
+  background-color: var(--tri) ;
+ 
+  margin-top: 50px;
+}
+a{
+    color: var(--prim); 
+}
+
+
+/* Voltar ao topo */
+
+.botao-control-top {
+    text-decoration: none;
+    color: black;
+    background-color: var(--extra);
+    padding: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    box-shadow: 5px 10px 15px black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
