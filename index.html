@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <title> Trabalho final </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <div class="princ">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+
+        <a href="" class="navbar-brand"><img class="logo" src="imagens/logo.png"></a>
+
+        <button 
+            class="navbar-toggler"
+            data-bs-toggle="collapse" 
+            data-bs-target="#menu-principal"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="menu-principal" >
+            <ul class="navbar-nav ms-auto">
+                <li><a href="#Home" class="nav-link">Início</a></li>
+                <li><a href="#suplementos" class="nav-link">Suplementos</a></li>
+                <li><a href="login.html" class="nav-link">Login</a></li>
+                <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                <li><a href="#rodape" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<!-- HOME -->
+    <div class="conatiner-fluid Home" id="home">
+      <div id="carouselIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/Fashion.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/Fashion2.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/Fashion3.png" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+<!-- PARTE DE CIMA - MARCELLA -->
+
+<div class="container-fluid suplementos" id="suplementos">
+  <h1 >Mais Vendidos</h1>
+
+  <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+      <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100">
+              <img class="card-img-top" src="https://images.ctfassets.net/ea2tosc1qg3k/BR-2kNpW3DOlEZoscaMnUIDZY/667c8240a51bb048b3da9b768e51b614/pote-coco.png?w=350&q=50" alt="..." />
+              <div class="card-body p-4">
+                  <div class="text-center">
+                      <h5 class="fw-bolder">Iogurte Yopro Coco Cremoso 160g </h5>
+                      R$9.90
+                  </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+              </div>
+          </div>
+      </div>
+
+      
+      <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100">
+              <img class="card-img-top" src="https://www.mundodanone.com.br/_next/image?url=https%3A%2F%2Fservice.mundodanone.com.br%2Fmedia%2Fwebp%2Fy%2Fo%2Fyopro_uht_mkp_pique_baunilha-25g_tampapreta-af.webp&w=1920&q=75" alt="..." />
+              <div class="card-body p-4">
+                  <div class="text-center">
+                      <h5 class="fw-bolder">YoPRO Bebida Láctea UHT 25g de proteínas 250ml-Baunilha</h5>
+                      R$12,99
+                  </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100">
+              <img class="card-img-top" src="imagens/whey.jpg" alt="..." />
+              <div class="card-body p-4">
+                  <div class="text-center">
+                      <h5 class="fw-bolder">Whey Protein 80% Concentrado 1kg Original (Leite em Pó)</h5>
+                      R$199.00
+                  </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100">
+
+              <img class="card-img-top" src="imagens/suple.png" alt="..." />
+              <div class="card-body p-4">
+                  <div class="text-center">
+                      <h5 class="fw-bolder">MULTIVITAMÍNICO (120 CÁPS) - GROWTH SUPPLEMENTS</h5>
+                      <div class="d-flex justify-content-center small text-warning mb-2">
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                      </div>
+                      R$36.90
+                  </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</div>
+      
+    
+    
+
+<!-- CONTEÚDO - Juh e Fer -->
+
+    <div class="global " id="produtos">
+      <h1>Nossos Produtos:</h1>
+      <div class="row">
+        <div class="crr col-12" id="carousel4">
+            <div class="Cesquerdo">
+                <div id="carouselCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://projetos.sunstudio.com.br/blog-digitaletextil/wp-content/uploads/2018/03/roupas-para-crossfit-compra.jpg"
+                                class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Crossfit</h5>
+                                <p>O look perfeito para um dia de crossfit</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.olhardigital.com.br/wp-content/uploads/2021/08/shutterstock_1861917607.jpg"
+                                class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Musculaçao</h5>
+                                <p>A perfeiçao da academia chegou.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/534/467/products/1fedb9701-5b04b0cf641507263a16795135417120-640-0.webp"
+                                class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Futebol</h5>
+                                <p>Lindo com o manto do Flamengo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions"
+                        data-bs-slide="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="color: aqua;" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions"
+                        data-bs-slide="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" style="color: aqua; background:transparent" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                          </svg>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+          
+ <!-- BOTAO -->
+            <div class="Cdireito col-12">
+                <h1> Explore a sua Paixão</h1>
+                <p>Acreditamos que a moda e o esporte podem andar juntos, e é por isso que selecionamos cuidados
+                  amente cada peça em nosso estoque. Trabalhamos apenas com as melhores marcas esportivas, conhec
+                  idas por sua qualidade e durabilidade, para garantir que nossos clientes tenham o máximo desemp
+                  enho em suas atividades físicas
+                </p>
+                <button>
+                    <a id="prod" href="cards.html">Produtos</a>
+                </button>
+            </div>
+        </div>    
+    </div>  
+    </div>
+    </div>
+<!-- Teste de icons  -->
+<div class="final">
+<div class="icons">
+  <div class="row">
+      <div class="col" style="border-right: 2px solid rgba(41, 39, 39, 0.884);">
+        <svg preserveAspectRatio="xMidYMid meet"  width="70" height="70" data-bbox="32.5 16 135.2 168.1" xmlns="http://www.w3.org/2000/svg" viewBox="32.5 16 135.2 168.1" role="presentation" aria-hidden="true"><g>
+            <path d="M159.6 58.3h-18.4V54c0-13.7-9.6-25.4-22.8-28-1.7-.3-3.5-.5-5.3-.5-1.7 0-3 1.3-3 3s1.3 3 3 3c1.4 0 2.8.1 4.2.4 10.4 2 18 11.3 18 22.1v4.3h-24.5v-12c0-16.7-13.4-30.3-29.9-30.3h-3.6c-16.5 0-29.9 13.6-29.9 30.3v12h-7c-4.3 0-7.9 3.5-7.9 7.9v110c0 4.3 3.5 7.9 7.9 7.9h119.3c4.3 0 7.9-3.5 8-7.9v-110c-.3-4.4-3.8-7.9-8.1-7.9zm-106.3-12C53.3 32.9 64 22 77.2 22h3.6c13.2 0 23.9 10.9 23.9 24.3v12H87.4V56c0-6 2.3-11.7 6.5-15.9 1.2-1.2 1.2-3.1 0-4.2-1.2-1.2-3.1-1.2-4.2 0-5.3 5.4-8.2 12.5-8.2 20.1v2.2H53.3V46.3zM38.5 176.1V66.2c0-1 .8-1.9 1.9-1.9l7-.1v14.9c0 1.7 1.3 3 3 3s3-1.3 3-3V64.3h51.5v14.9c0 1.7 1.3 3 3 3s3-1.3 3-3V64.3h15.2V178H40.3c-1 0-1.8-.8-1.8-1.9zm123.1 0c-.1 1-.9 1.9-2 1.9H149v-53.7c0-1.7-1.3-3-3-3s-3 1.3-3 3V178h-11.1V64.3H143v32.4c0 1.7 1.3 3 3 3s3-1.3 3-3V64.3h10.6c1 0 1.9.8 2 1.9v109.9z"></path></g>
+        </svg>
+          <h4>NOVO SERVIÇO DE RETIRADA</h4>
+              <p>Sempre frescos</p>
+      </div>
+      <div class="col" style="border-right: 2px solid rgba(41, 39, 39, 0.884);">
+        <svg preserveAspectRatio="xMidYMid meet" width="70" height="70" data-bbox="13.5 40.8 173 118.3" xmlns="http://www.w3.org/2000/svg" viewBox="13.5 40.8 173 118.3" role="presentation" aria-hidden="true">
+          <g>
+              <path d="M179.7 80.6H163L144 45c-1.4-2.6-4-4.2-6.9-4.2H43.7c-4.4 0-7.9 3.7-7.9 8.2v14.7H16.5c-1.7 0-3 1.3-3 3s1.3 3 3 3h32.4c1.7 0 3-1.3 3-3s-1.3-3-3-3h-7.1V49c0-1.2.9-2.2 1.9-2.2h93.4c.6 0 1.3.4 1.6 1l20.7 38.7h20.3c.4 0 .8.5.8 1v29.6h-66.3v-58c0-1.7-1.3-3-3-3s-3 1.3-3 3v58H41.8V87.5h7.1c1.7 0 3-1.3 3-3s-1.3-3-3-3h-7.1v-3.8c0-1.7-1.3-3-3-3s-3 1.3-3 3v3.8h-7.6c-1.7 0-3 1.3-3 3s1.3 3 3 3h7.6v51.1c0 4.5 3.5 8.1 7.9 8.1h13.5c1.4 7.1 7.7 12.4 15.2 12.4 8.5 0 15.5-7 15.5-15.5s-7-15.5-15.5-15.5c-7.6 0-13.9 5.4-15.2 12.6H43.7c-1 0-1.9-1-1.9-2.1v-15.5h138.7v15.5c0 1.2-.8 2.1-1.9 2.1h-22.3c-1.4-7.2-7.7-12.6-15.2-12.6-7.6 0-13.9 5.4-15.2 12.6H94c-1.7 0-3 1.3-3 3s1.3 3 3 3h31.9c1.4 7.1 7.7 12.4 15.2 12.4 7.5 0 13.7-5.3 15.2-12.4h22.3c4.3 0 7.9-3.7 7.9-8.1v-51c0-3.9-3.1-7-6.8-7zM72.4 134.2c5.2 0 9.5 4.3 9.5 9.5s-4.3 9.5-9.5 9.5-9.5-4.3-9.5-9.5 4.2-9.5 9.5-9.5zm68.7 19c-5.2 0-9.5-4.3-9.5-9.5s4.3-9.5 9.5-9.5 9.5 4.3 9.5 9.5-4.3 9.5-9.5 9.5z"></path>
+          </g>
+      </svg>
+          <h4>ENTREGA GRÁTIS</h4>
+          <p>Entregue na sua porta</p>
+      </div>
+      <div class="col">
+        <svg preserveAspectRatio="none" width="70" height="70" data-bbox="31 23.534 138.1 152.966" xmlns="http://www.w3.org/2000/svg" viewBox="31 23.534 138.1 152.966" role="presentation" aria-hidden="true">
+          <g>
+              <path d="M161.6 59.8h-43.7c1.1-1.1 2.3-2.3 3.3-3.7 4.1-5.4 6.2-11.4 5.5-16.2-.4-2.6-1.5-4.7-3.3-6.1-5.4-4-14.4-.5-21 8.1-.4.5-.7 1-1 1.5-.2-.6-.3-1.3-.5-1.9-3.5-12-11-19.5-17.4-17.7-2 .6-3.7 2-4.9 4.1-2.5 4.5-2.7 12.2-.5 20 1.4 4.8 3.4 8.9 5.8 11.9H38.4c-4.1 0-7.4 3.3-7.4 7.4V87c0 4.1 3.3 7.4 7.4 7.4h4.4v72c0 5.7 4.3 10.1 9.8 10.1h94.9c5.5 0 9.8-4.4 9.8-10.1v-72h4.4c4.1 0 7.4-3.3 7.4-7.4V67.2c-.1-4.1-3.4-7.4-7.5-7.4zm-54.5-14.2c4.9-6.4 10.7-8.4 12.6-6.9.5.4.9 1.1 1 2.1.4 3.1-1.3 7.7-4.3 11.8-3.6 4.7-7.8 7.1-10.5 7.3h-1c-.5-.1-.9-.2-1.2-.4-.5-.4-.9-1.1-1-2.1-.4-3.2 1.3-7.8 4.4-11.8zm-23.3.6c-2-7.1-1.5-12.8-.1-15.4.3-.5.7-1.1 1.3-1.3.1 0 .3-.1.4-.1 2.4 0 7.1 5 9.5 13.6 2 7.1 1.5 12.8.1 15.4-.3.5-.7 1.1-1.3 1.3h-.5c-2.3 0-6.9-5-9.4-13.5zM37 87V67.2c0-.8.6-1.4 1.4-1.4h46.9v22.6H38.4c-.8 0-1.4-.6-1.4-1.4zm54.2 83.5v-41.3c0-1.7-1.3-3-3-3s-3 1.3-3 3v41.3H52.5c-2.1 0-3.8-1.8-3.8-4.1v-72h36.5v15.7c0 1.7 1.3 3 3 3s3-1.3 3-3V65.9h17.5v104.6H91.2zm60.1-4.1c0 2.3-1.7 4.1-3.8 4.1h-32.7V94.4h36.5v72zM163 87c0 .8-.6 1.4-1.4 1.4h-46.9V65.8h46.9c.8 0 1.4.6 1.4 1.4V87z"></path>
+          </g>
+      </svg>
+          <h4>EMBALAGENS PARA PRESENTE</h4>
+          <p>Envie uma doce surpresa</p>
+      </div>
+  </div>
+</div>
+    
+<!-- OUTRO CAROUSEL COM CARDS -->
+
+<!-- FOOTER/RODAPÉ -->
+
+
+  <footer id="rodape"
+          class="text-center text-lg-start "
+         >
+    
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+         
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+           <img src="imagens/logofooter.png" alt="">
+          </div>
+         
+
+          <hr class="w-100 clearfix d-md-none" />
+
+         
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Produtos</h6>
+            <p>
+              <a href="https://www.gsuplementos.com.br/" class="footer-link">Growth Supplements</a>
+            </p>
+            <p>
+              <a href="https://www.smartfit.com.br/" class="footer-link">Smart Fit</a>
+            </p>
+            <p>
+              <a href="https://www.yopro.com.br/" class="footer-link">Yopro</a>
+            </p>
+           
+          </div>
+         
+
+          <hr class="w-100 clearfix d-md-none" />
+
+         
+          <hr class="w-100 clearfix d-md-none" />
+
+         
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Parceiros</h6>
+            <p>
+              <a href="#suplementos" class="footer-link">Suplementos</a>
+            </p>
+            <p>
+              <a href="#produtos" class="footer-link">Roupas</a>
+            </p>
+            <p>
+              <a href="#produtos" class="footer-link">Acessorios</a>
+            </p>
+          </div>
+         
+
+         
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contato:</h6>
+
+            <!-- Facebook -->
+            <a>
+            <i class="bi bi-"></i>
+              </a>
+
+               <!-- Whatsapp -->
+            <a></a>
+            <i class="bi bi-whatsapp"></i>
+              </a>
+              
+
+            <!-- Linkedin -->
+           <a href=""><i class="bi bi-linkedin"></i></a>
+
+
+            <!-- Instagram -->
+            <a></a>
+            <i class="bi bi-instagram"></i>
+              </a>
+
+            <!-- Github -->
+            <a href="https://github.com/jujuliabeat/Framework"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+       
+      </section>
+     
+    </div>
+  
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color:#bc6abc"
+         >
+      Fernanda Neres| Geovana Santos |Júlia Beatriz| Marcella Eduarda
+        
+    </div>
+   
+  </footer>
+</div>
+  <!-- Footer -->
+
+
+                     <!-- ========== VOLTAR AO TOPO ========== -->
+
+     <a id="link_topo" href="#home" class="botao-control-top btn-fixed"><svg xmlns="http://www.w3.org/2000/svg"
+        width="20" height="20" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+    </svg></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        const botao = document.querySelector(".btn-fixed");
+
+        window.addEventListener("scroll", function (event) {
+            if (window.scrolly == 0) {
+                botao.classList.remove("visible");
+            } else {
+                botao.classList.add("visible");
+            }
+        })
+    </script>
+
+
+</div>   
+
+    <div class="celular">
+        <div class="container">
+            <div class="box">
+                <img class="img2cel" src="logo.png" alt="">
+                <p>O melhor da moda esportiva</p>
+                <div class="botaocel">
+                    <button href="index.html" class="btn2cel btn  btn-dark">Home</button>
+                    <button href="cards.html" class="btn2cel btn btn-dark">comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,900&display=swap');
+
+:root{
+    --prim: #791979;
+    --second: #9b429a;
+    --tri: #bc6abc;
+    --for: #de93dd;
+    --five: #ffbcff;
+    --extra: #ffc2ff;
+    --tras:#231127;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--tras);
+}
+.container {
+    margin-top: 3%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 300px;
+    border-radius: 20px;
+    background-color:#bc6abc;
+    padding: 25px;
+}
+h1{
+    font-family: gd-sage, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+input{
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+}
+.btn{
+    border: 0;
+    border-radius: 5px;
+    background-color: #791979;
+    color: #de93dd;
+    width: 100%;
+}
+.icon{
+    align-items: center;
+    text-align:center;
+}
+i{
+    margin: 10px;
+    color: var(--tras);
+}
+p{
+    margin-top: 25px;
+    text-align: center;
+    color: var(--tras);
+}
+.img{
+    margin: 0 50px;
+    width: 200px;
+    height: 200px;
+    mix-blend-mode: color-burn;
+}
+.celular{
+    display: none;
+}
+
+@media  (max-width: 760px){
+    .princ{
+        display: none;
+    }
+    body {
+        margin: 0px;
+        background-color:#bc6abc;
+    }
+    .celular{
+        display: grid;
+        align-items: center;
+    }
+    .container {
+        width: 100vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .box {
+        width: 500px;
+        background-color:#bc6abc;
+    }
+    .img2{
+        mix-blend-mode: color-burn;
+    } 
+    .botao{
+        display: flex;
+    }
+    .btn2{
+        margin: 10px 15px 0 15px;
+        border: 0;
+        border-radius: 5px;
+        background-color: #791979;
+        color: #de93dd;
+        width: 45%;
+    }
+}
